@@ -1,0 +1,151 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# If you're using Django's default temp file store
+tmp/
+
+# Media and static files
+media/
+staticfiles/
+
+# Backup files
+*.bak
+
+# PyCharm
+.idea/
+*.idea/
+
+# VS Code
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+*.env
+.env.*
+
+# Mac OS
+.DS_Store
+
+# Other IDEs and editors
+*.swp
+*.swo
+
+# Pylint
+pylint-report.txt
+pylint.log
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Local binary build artifacts
+*.so
+
+# Sphinx documentation
+docs/_build/
+
+# pytest coverage
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pylint
+pylint-report.txt
+pylint.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+*.cover
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pylint
+pylint-report.txt
+pylint.log
+
+# Test output
+*.out
+*.err
+
+# Ansible
+.venv/
+
+# Precompiled files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# SASS
+.sass-cache/
+
+# node.js
+node_modules/
+
+# Log files
+*.log
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Global settings
+.vscode/
+.idea/
