@@ -5,13 +5,13 @@ from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
-from rest_framework_simplejwt.tokens import RefreshToken
+from user.tokens import CustomRefreshToken
 
 from .serializers import  RegistrationSerializer
 
 
 @api_view(['POST',])
-@permission_classes([AllowAny])
+@permission_classes((AllowAny,))
 def registration_view(request):
 
     if request.method == 'POST':
@@ -26,7 +26,7 @@ def registration_view(request):
             data['username'] = account.username
             data['email'] = account.email
 
-            refresh = RefreshToken.for_user(account)
+            refresh = CustomRefreshToken.for_user(account)  # use the custom token class
             data['token'] = {
                                 'refresh': str(refresh),
                                 'access': str(refresh.access_token),
